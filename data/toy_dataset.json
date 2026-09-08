@@ -1,0 +1,95 @@
+{
+  "_comment": "Toy dataset authored for memory-backend-bench, day 1. NOT a real user-conversation log or any external corpus -- these are 18 invented key/value/query triples used only to exercise store/retrieve/search against a fixed, reproducible set of examples. 'query' is the search string used to test recall of 'key'.",
+  "entries": [
+    {
+      "key": "fact_favorite_color",
+      "value": "The user mentioned their favorite color is teal, especially for UI accents.",
+      "query": "what is the user's favorite color"
+    },
+    {
+      "key": "fact_home_city",
+      "value": "The user lives in Pune and has lived there for six years.",
+      "query": "what city does the user live in"
+    },
+    {
+      "key": "fact_pet_name",
+      "value": "The user has a cat named Miso who is three years old.",
+      "query": "what is the user's pet name"
+    },
+    {
+      "key": "fact_job_title",
+      "value": "The user works as a backend engineer at a logistics startup.",
+      "query": "what is the user's job title"
+    },
+    {
+      "key": "fact_preferred_language",
+      "value": "The user prefers writing backend services in Python over Go.",
+      "query": "what programming language does the user prefer"
+    },
+    {
+      "key": "fact_coffee_order",
+      "value": "The user usually orders a flat white with oat milk in the morning.",
+      "query": "what does the user usually order for coffee"
+    },
+    {
+      "key": "fact_weekend_hobby",
+      "value": "On weekends the user enjoys bouldering at a climbing gym nearby.",
+      "query": "what hobby does the user do on weekends"
+    },
+    {
+      "key": "fact_project_deadline",
+      "value": "The memory-backend-bench project has a self-imposed deadline of end of this month.",
+      "query": "when is the project deadline"
+    },
+    {
+      "key": "fact_favorite_editor",
+      "value": "The user codes primarily in VS Code with the Vim keybindings extension.",
+      "query": "what editor does the user use"
+    },
+    {
+      "key": "fact_commute_mode",
+      "value": "The user commutes to the office by bicycle most days of the week.",
+      "query": "how does the user commute to work"
+    },
+    {
+      "key": "fact_team_size",
+      "value": "The user's engineering team currently has five people including the user.",
+      "query": "how big is the user's team"
+    },
+    {
+      "key": "fact_favorite_database",
+      "value": "For small projects the user reaches for SQLite before anything heavier.",
+      "query": "what database does the user like for small projects"
+    },
+    {
+      "key": "fact_conference_talk",
+      "value": "The user is preparing a conference talk about benchmarking memory backends.",
+      "query": "what talk is the user preparing"
+    },
+    {
+      "key": "fact_morning_routine",
+      "value": "The user starts most mornings with a short run before checking email.",
+      "query": "what does the user do in the morning"
+    },
+    {
+      "key": "fact_favorite_book_genre",
+      "value": "The user mostly reads science fiction and the occasional history book.",
+      "query": "what genre of books does the user read"
+    },
+    {
+      "key": "fact_current_os",
+      "value": "The user's primary development machine runs macOS.",
+      "query": "what operating system does the user use"
+    },
+    {
+      "key": "fact_test_framework",
+      "value": "For Python projects the user always reaches for pytest as the test framework.",
+      "query": "what test framework does the user use for python"
+    },
+    {
+      "key": "fact_repo_name",
+      "value": "This repository is named memory-backend-bench and compares memory backends for agents.",
+      "query": "what is this repository named"
+    }
+  ]
+}
